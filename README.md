@@ -44,9 +44,21 @@ forensicx --help
 # Run the tool 
 forensicx --mount <path_to_mount>
 ```
+If you do not have a mount setup, we have provided 2 seperate scripts, one for bindfs and one for encfs.
+You can create them by running the script as follows
 
-[^1]: This is footnote 1
+```bash
+# give premissions
+chmod +x setup_bind.sh setup_encfs.sh
+
+# for bindfs
+./setup_bind.sh
+
+# for encfs
+./setup_encfs.sh
+
+```
 
 ---
-**Created By** Akhil, Inzamam and Shrawani
+***Created By:***  Akhil, Inzamam and Shrawani
 ---
